@@ -1,0 +1,47 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Open sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #02918c;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.logo{
+    width: 40%;
+    align-self: center;
+}
+nav .manu{
+ width: 60%;
+ text-align: right;
+}
+
+.manu ul li {
+    display: inline-block;
+}
+nav .manu ul li a{
+    color:white ;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+}
